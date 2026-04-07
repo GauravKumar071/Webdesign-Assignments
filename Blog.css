@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 500px){
+    body{
+        flex-direction: column;
+    }
+}
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    height: 50px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+}
+
+img{
+    position: relative;
+    bottom: 28px;
+    left: 200px;
+    height: 100px;
+    width: 150px;
+}
+
+a{  
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    position: relative;
+    top: 15px;
+    left: 250px;
+    font-weight: bold;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.para{
+    margin-left: 210px;
+    margin-top:30px;
+    text-align: center;
+}
+
+#button1{
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    width: 130px;
+    height: 30px;
+}
+
+.images{
+    margin-top: 60px;
+    position: relative;
+    right: 130px;
+}
+#img-a{
+    padding: 5px;
+}
+
+.background{
+    display: flex;
+    
+}
+
+.bg-color{
+    background-color: rgb(48, 48, 48);
+    height: 350px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.para2{
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 250px;
+    bottom: 240px;
+}
+
+.images2{
+    position: relative;
+    top: 40px;    
+}
+
+#p1{
+    position: relative;
+    left: 200px;
+    bottom: 25px;
+    color: white;
+
+}
+
+#img-b{
+    height: 230px;
+    width: 420px;
+}
+
+#button2{
+    background-color: rgb(48, 48, 48);
+    border: 1.5px solid white;
+    color: white;
+    width: 130px;
+    height: 30px;
+}
+
+.container3{
+    display: flex;
+}
+
+.para3{
+    margin: 0 400px 0 0 ;
+    margin-top:30px; 
+    text-align: center;
+}
+
+#button3{
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    width: 130px;
+    height: 30px;
+}
+
+.images3{
+    position: relative;
+    left: 500px;
+    bottom: 240px;
+}
+#img-c{
+    padding: 5px;
+}
+
+.background2{
+    display: flex;
+    
+}
+
+.bg-color2{
+    background-color: rgb(48, 48, 48);
+    height: 310px;
+    width: 100%;
+    position: relative;
+    margin-top: -200px;
+    
+}
+
+.para4{
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 250px;
+    bottom: 260px;
+}
+
+.images4{
+    position: relative;
+    top: 40px;    
+}
+
+#img-d{
+    height: 270px;
+    width: 420px;
+}
+
+#button4{
+    background-color: rgb(48, 48, 48);
+    border: 1.5px solid white;
+    color: white;
+    width: 130px;
+    height: 30px;
+}
+
+#button1:hover, #button3:hover{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: 1.5px solid wheat;
+}
+
+#button2:hover, #button4:hover{
+    background-color: white;
+    color: black;
+    border: 1.5px solid burlywood;
+}
+
+#button1, #button2, #button3, #button4{
+    transition: 0.25s;
+    cursor: pointer;
+}
